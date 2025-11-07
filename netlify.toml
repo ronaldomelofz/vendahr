@@ -1,0 +1,15 @@
+[build]
+  command = "pnpm install && pnpm run build"
+  publish = "dist/public"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.environment]
+  NODE_VERSION = "22"
+  VITE_APP_TITLE = "Hyundai HR 2018 à Venda - R$ 110.900"
+  VITE_APP_LOGO = "/images/HRQRO.jpeg"
+  VITE_ANALYTICS_ENDPOINT = ""
+  VITE_ANALYTICS_WEBSITE_ID = ""

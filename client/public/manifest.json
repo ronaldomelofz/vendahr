@@ -1,0 +1,27 @@
+{
+  "name": "Hyundai HR 2018 - Venda",
+  "short_name": "Venda HR",
+  "description": "Site profissional para venda do Hyundai HR 2.5 TCI Diesel 2018",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#002C5F",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/HRQRO.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/HRQRO.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "automotive"],
+  "lang": "pt-BR"
+}
+
