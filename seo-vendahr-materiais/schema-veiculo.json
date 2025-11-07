@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Car",
+  "name": "Venda de Veículo HR: Hyundai HR 2.5 TCI Diesel 2018",
+  "description": "Caminhão Hyundai HR 2018 à venda em Teresina, PI. Veículo robusto e confiável, pronto para trabalhar, com documentação em dia e quitado. Motor diesel econômico, câmbio manual e direção hidráulica.",
+  "image": [
+    "https://vendahr.netlify.app/images/HRQRO.jpeg"
+  ],
+  "brand": {
+    "@type": "Brand",
+    "name": "Hyundai"
+  },
+  "model": "HR",
+  "productionDate": "2018",
+  "vehicleModelDate": "2018",
+  "vehicleEngine": {
+    "@type": "EngineSpecification",
+    "name": "2.5 TCI Diesel",
+    "fuelType": "Diesel",
+    "engineDisplacement": {
+      "@type": "QuantitativeValue",
+      "value": "2.5",
+      "unitCode": "LTR"
+    }
+  },
+  "fuelType": "Diesel",
+  "vehicleConfiguration": "Caminhão",
+  "bodyType": "Caminhão",
+  "numberOfDoors": 2,
+  "mileageFromOdometer": {
+    "@type": "QuantitativeValue",
+    "value": 104780,
+    "unitCode": "KMT"
+  },
+  "vehicleTransmission": "Manual",
+  "driveWheelConfiguration": "Rear-wheel drive",
+  "vehicleInteriorColor": "Não especificado",
+  "vehicleInteriorType": "Básico",
+  "vehicleSeatingCapacity": 3,
+  "color": "Branco",
+  "itemCondition": "https://schema.org/UsedCondition",
+  "offers": {
+    "@type": "Offer",
+    "price": "110900.00",
+    "priceCurrency": "BRL",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/UsedCondition",
+    "url": "https://vendahr.netlify.app/",
+    "seller": {
+      "@type": "Organization",
+      "name": "Venda HR Teresina",
+      "telephone": "+55-86-99555-0422",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ALTERAR: Coloque seu endereço aqui (Ex: Av. Frei Serafim, 2000)",
+        "addressLocality": "Teresina",
+        "addressRegion": "PI",
+        "postalCode": "ALTERAR: Coloque seu CEP aqui (Ex: 64000-020)",
+        "addressCountry": "BR"
+      }
+    }
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Status",
+      "value": "Quitado"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Documentação",
+      "value": "Em dia e regularizada"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Direção",
+      "value": "Hidráulica"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Estado de Conservação",
+      "value": "Ótimo"
+    }
+  ]
+}

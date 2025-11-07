@@ -27,13 +27,15 @@ export default function Home() {
   ];
 
   const features = [
+    "Venda de veículo HR com documentação completa",
+    "Hyundai HR 2018 em excelente estado",
     "Motor 2.5 TCI Diesel econômico e potente",
     "Documentação em dia e regularizada",
     "Veículo quitado, sem restrições",
     "Direção hidráulica para maior conforto",
-    "Ideal para transporte de cargas",
+    "Ideal para transporte de cargas urbanas e intermunicipais",
     "Manutenção em dia",
-    "Pronto para trabalhar",
+    "Pronto para trabalhar em Teresina e região",
     "Ótimo estado de conservação"
   ];
 
@@ -52,8 +54,8 @@ export default function Home() {
         <div className="container">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl md:text-3xl font-bold">Hyundai HR 2018</h1>
-              <p className="text-sm md:text-base opacity-90">Caminhão 2.5 TCI Diesel</p>
+              <h1 className="text-2xl md:text-3xl font-bold">Hyundai HR 2018 à Venda em Teresina</h1>
+              <p className="text-sm md:text-base opacity-90">Caminhão 2.5 TCI Diesel - Quitado e Pronto para Trabalhar</p>
             </div>
             <div className="text-right">
               <p className="text-3xl md:text-4xl font-bold" aria-label="Preço: R$ 110.900">R$ 110.900</p>
@@ -70,7 +72,7 @@ export default function Home() {
             <div className="relative aspect-video bg-muted">
               <img 
                 src={images[currentImageIndex]} 
-                alt={`Hyundai HR 2018 - Foto ${currentImageIndex + 1} de ${images.length}`}
+                alt={`Venda de veículo HR Hyundai 2018 à venda em Teresina - Foto ${currentImageIndex + 1} de ${images.length}`}
                 className="w-full h-full object-cover"
                 loading="eager"
               />
@@ -104,7 +106,7 @@ export default function Home() {
                 >
                   <img 
                     src={img} 
-                    alt={`Miniatura ${index + 1}`}
+                    alt={`Miniatura venda veículo HR Hyundai 2018 Teresina foto ${index + 1}`}
                     className="w-full h-full object-cover"
                   />
                 </button>
@@ -182,17 +184,22 @@ export default function Home() {
             <h2 className="text-2xl md:text-3xl font-bold mb-4 text-center">Sobre o Veículo</h2>
             <div className="space-y-4 text-sm md:text-base leading-relaxed">
               <p>
-                <strong>Hyundai HR 2.5 TCI Diesel (RS/RD) 2018</strong> - Caminhão robusto e confiável, 
-                perfeito para quem busca um veículo de trabalho em excelente estado de conservação.
+                Esta <strong>venda de veículo HR</strong> da Hyundai, modelo 2018, é um caminhão robusto e confiável, 
+                perfeito para quem busca um veículo de trabalho em excelente estado de conservação. 
+                O <strong>Hyundai HR 2.5 TCI Diesel (RS/RD)</strong> é reconhecido no mercado pela sua durabilidade 
+                e economia de combustível.
               </p>
               <p>
-                Com apenas <strong>104.780 km rodados</strong>, este HR está pronto para trabalhar. 
-                Motor diesel econômico, câmbio manual suave e direção hidráulica proporcionam 
-                conforto e eficiência no dia a dia.
+                Com apenas <strong>104.780 km rodados</strong>, este <strong>HR à venda</strong> está pronto para trabalhar. 
+                O motor diesel econômico, câmbio manual suave e direção hidráulica proporcionam 
+                conforto e eficiência no dia a dia de trabalho. Ideal para transporte de cargas 
+                urbanas e intermunicipais em <strong>Teresina e região</strong>.
               </p>
               <p>
                 Documentação 100% regularizada e veículo completamente quitado, sem qualquer restrição. 
-                Você pode trabalhar com tranquilidade desde o primeiro dia.
+                Esta <strong>venda de veículo HR</strong> oferece total segurança para você trabalhar com tranquilidade 
+                desde o primeiro dia. Não perca esta oportunidade de adquirir um <strong>Hyundai HR 2018</strong> 
+                em ótimo estado!
               </p>
               <p className="text-lg md:text-xl font-bold text-center pt-4 border-t border-primary-foreground/20">
                 Não perca esta oportunidade! Entre em contato agora mesmo.
@@ -206,9 +213,9 @@ export default function Home() {
       <section className="container pb-12">
         <Card className="shadow-2xl border-2 border-primary">
           <CardContent className="p-8 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Interessado?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Interessado nesta venda de veículo HR?</h2>
             <p className="text-lg md:text-xl mb-6 text-muted-foreground">
-              Entre em contato agora e agende uma visita para conhecer o veículo
+              Entre em contato agora e agende uma visita para conhecer pessoalmente este Hyundai HR 2018 em Teresina, PI
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
               <Button 
@@ -236,13 +243,14 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-muted py-6 mt-8" role="contentinfo">
         <div className="container text-center text-sm text-muted-foreground">
-          <p>Hyundai HR 2.5 TCI Diesel 2018 - Caminhão à venda</p>
-          <p className="mt-2">
-            <a href="tel:+558632253639" className="hover:text-primary transition-colors">
+          <p className="font-semibold">Venda de Veículo HR em Teresina, PI</p>
+          <p className="mt-1">Hyundai HR 2.5 TCI Diesel 2018 à venda</p>
+          <p className="mt-3">
+            <a href="tel:+558632253639" className="hover:text-primary transition-colors font-medium">
               Contato: (86) 3225-3639
             </a>
             {" | "}
-            <a href="https://wa.me/5586995550422" className="hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/5586995550422" className="hover:text-primary transition-colors font-medium" target="_blank" rel="noopener noreferrer">
               (86) 99555-0422
             </a>
           </p>
